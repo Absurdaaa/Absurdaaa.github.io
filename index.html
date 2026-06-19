@@ -34,7 +34,7 @@
       <div class="hero-text">
         <p class="mono hero-greet">👋 hi, I'm</p>
         <h1 class="serif hero-name">林晖鹏</h1>
-        <p class="hero-tagline">计算机科学本科生 · 系统 &amp; 机器学习方向<br>喜欢把复杂的问题拆开，再亲手实现出来。</p>
+        <p class="hero-tagline">计算机科学本科生 · 南开大学羽毛球协会会长 · CV &amp; 深度学习方向<br>喜欢把复杂的问题拆开，再亲手实现出来。</p>
         <div class="hero-btns">
           <a class="btn btn-primary" href="#research">查看科研 →</a>
           <a class="btn" href="https://github.com/Absurdaaa" target="_blank" rel="noopener">GitHub</a>
@@ -49,25 +49,26 @@
       <div class="about-code mono">
         <p class="c-comment"># 我是谁</p>
         <p>我是 <span class="c-accent">林晖鹏</span>，南开大学计算机系在读，</p>
-        <p>喜欢钻研系统底层与机器学习。<span class="c-comment">/* TODO: 换成一句有温度的自述 */</span></p>
+        <p>喜欢钻研底层原理与深度学习。</p>
+        <p class="c-comment">// 玩明白无监督学习的前提是，监督自己学习！</p>
         <p class="about-vars">
           <span class="c-key">working_on</span> <span class="c-op">=</span> <span class="c-str">"十亿级像素病理图像端到端"</span><br>
-          <span class="c-key">learning</span>&nbsp;&nbsp;&nbsp;<span class="c-op">=</span> <span class="c-str">"CUDA / 分布式训练"</span><br>
-          <span class="c-key">hobbies</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-op">=</span> <span class="c-str">["待补充", "待补充"]</span>
+          <span class="c-key">learning</span>&nbsp;&nbsp;&nbsp;<span class="c-op">=</span> <span class="c-str">"DL / LLM / Agent"</span><br>
+          <span class="c-key">hobbies</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="c-op">=</span> <span class="c-str">["羽毛球", "Creating"]</span>
         </p>
       </div>
       <div class="stack">
         <span class="stack-label">🛠️ 技术栈</span>
-        <span class="tag mono">C / C++</span><span class="tag mono">Python</span><span class="tag mono">PyTorch</span><span class="tag mono">SQL</span>
+        <span class="tag mono">C / C++</span><span class="tag mono">Python</span><span class="tag mono">PyTorch</span>
       </div>
     </section>
 
     <section id="research" class="section">
       <p class="section-label">// RESEARCH · 科研经历</p>
       <article class="rcard rcard-key">
-        <div class="rcard-top"><b>面向 MLLM 的有序选择性缩放</b><span class="mono badge">ECCV 2026 · 共一</span></div>
+        <div class="rcard-top"><b>面向 MLLM 的有序选择性缩放</b><span class="mono badge">流浪中 · 共一</span></div>
         <p class="rcard-meta">Nankai CV Lab · 杨巨峰教授</p>
-        <p class="rcard-desc">多阶段细化 + 多尺度输入切换 + 风险动态剪枝，在提升精度的同时大幅降低计算开销。负责核心算法设计与全部对比/消融实验。</p>
+        <p class="rcard-desc">多阶段细化 + 多尺度输入切换 + 风险动态剪枝，在提升精度的同时大幅降低计算开销。</p>
       </article>
       <article class="rcard rcard-key">
         <div class="rcard-top"><b>十亿级像素病理图像端到端诊疗</b><span class="mono badge">TPAMI · 共一在投</span></div>
@@ -75,16 +76,22 @@
         <p class="rcard-desc">基于双缓冲缓存模块筛选关键图块做梯度反传，大幅降低训练显存、加速整体流程，使大规模编码器端到端训练成为可能。</p>
       </article>
       <article class="rcard">
-        <div class="rcard-top"><b>图像-点云跨模态配准粗对应剪枝</b><span class="mono badge badge-mut">ECCV 2026 · 三作</span></div>
+        <div class="rcard-top"><b>图像-点云跨模态配准粗对应剪枝</b><span class="mono badge badge-mut">流浪中 · 三作</span></div>
         <p class="rcard-meta">Nankai CV Lab · 杨巨峰教授</p>
         <p class="rcard-desc">设计跨坐标对应剪枝策略 + 多密度点集成，过滤粗匹配外点，提升精匹配与位姿估计鲁棒性。</p>
+      </article>
+      <article class="rcard">
+        <div class="rcard-top"><b>ExpoMotion：面向多曝光融合的大规模基准与 Householder 投影网络</b><span class="mono badge badge-mut">ECCV 2026 · 七作</span></div>
+        <p class="rcard-meta">Nankai CV Lab · 杨巨峰教授</p>
+        <p class="rcard-desc">构建大规模动态 MEF 基准数据集（1738 组序列），覆盖受控/真实/实验室多类运动场景；设计 HOP 网络，通过 GPIA 模块完成曝光预对齐，引入 Householder 正交注意力将鬼影建模为正交扰动并几何投影滤除，配合梯度引导 FFN 增强高频细节恢复。</p>
       </article>
     </section>
 
     <section id="pub" class="section">
       <p class="section-label">// PUBLICATIONS · 论文</p>
-      <p class="pub">R. Qin, Y. Liu, <b>H. Lin</b>. "Orderly Selective Zoom Extension with Risk-Based Pruning for High-Resolution Image Perception in MLLMs." <i>ECCV</i>, 2026. <span class="pub-tag">(共一在投)</span></p>
-      <p class="pub">X. Liu, R. Qin, <b>H. Lin</b>. "Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration." <i>ECCV</i>, 2026. <span class="pub-tag">(三作在投)</span></p>
+      <p class="pub">R. Qin, Y. Liu, <b>H. Lin</b>. "Orderly Selective Zoom Extension with Risk-Based Pruning for High-Resolution Image Perception in MLLMs."</p>
+      <p class="pub">X. Liu, R. Qin, <b>H. Lin</b>. "Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration."</p>
+      <p class="pub">Y. Liu, L. Qu, J. Liang, S. Zhou, H. Zeng, Y. Peng, <b>H. Lin</b>, L. Zhang, J. Yang. "ExpoMotion: A Large-Scale Benchmark and A Householder Projection Network for Multi-Exposure Fusion."</p>
     </section>
 
     <section id="awards" class="section">

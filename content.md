@@ -12,7 +12,7 @@
 - 英文名：Huipeng Lin
 - Hero 招呼语：👋 hi, I'm
 - 一句话定位（姓名下方，可两行，用 / 分行）：
-  计算机科学本科生 · 系统 & 机器学习方向 / 喜欢把复杂的问题拆开，再亲手实现出来。
+  计算机科学本科生 · 南开大学羽毛球协会会长 · CV & 深度学习方向 / 喜欢把复杂的问题拆开，再亲手实现出来。
 - GitHub 链接：https://github.com/Absurdaaa
 - 邮箱：2312966@mail.nankai.edu.cn
 - 是否显示照片：否　（改成"是"，并把照片文件放到 assets/，告诉我文件名）
@@ -22,12 +22,12 @@
 # 关于我（代码风区块）
 
 自述（第一行注释后那两句，建议换成有温度的话）【待补充：你怎么入坑计算机、最享受做什么、想成为什么样的人】：
-我是林晖鹏，南开大学计算机系在读，喜欢钻研系统底层与机器学习。
+我是林晖鹏，南开大学计算机系在读，喜欢钻研底层原理与深度学习。玩明白无监督学习的前提是，监督自己学习！
 
 - working_on（🔭 正在做）：十亿级像素病理图像端到端
-- learning（🌱 在学）【待补充】：CUDA / 分布式训练
-- hobbies（🎮 兴趣爱好）【待补充】：待补充, 待补充
-- 技术栈（🛠️，逗号分隔，可增删）：C / C++, Python, PyTorch, SQL
+- learning（🌱 在学）：DL / LLM / Agent
+- hobbies（🎮 兴趣爱好）：羽毛球, Creating
+- 技术栈（🛠️，逗号分隔，可增删）：C / C++, Python, PyTorch
 
 ---
 
@@ -37,20 +37,23 @@
 
 1. 标题：面向 MLLM 的有序选择性缩放
    实验室·导师：Nankai CV Lab · 杨巨峰教授
-   venue·署位：ECCV 2026 · 共一
-   描述：多阶段细化 + 多尺度输入切换 + 风险动态剪枝，在提升精度的同时大幅降低计算开销。负责核心算法设计与全部对比/消融实验。
+   venue·署位：流浪中 · 共一
+   描述：多阶段细化 + 多尺度输入切换 + 风险动态剪枝，在提升精度的同时大幅降低计算开销。
    重点：是
-
 2. 标题：十亿级像素病理图像端到端诊疗
    实验室·导师：南开大学媒体计算实验室 · 程明明教授
    venue·署位：TPAMI · 共一在投
    描述：基于双缓冲缓存模块筛选关键图块做梯度反传，大幅降低训练显存、加速整体流程，使大规模编码器端到端训练成为可能。
    重点：是
-
 3. 标题：图像-点云跨模态配准粗对应剪枝
    实验室·导师：Nankai CV Lab · 杨巨峰教授
-   venue·署位：ECCV 2026 · 三作
+   venue·署位：流浪中 · 三作
    描述：设计跨坐标对应剪枝策略 + 多密度点集成，过滤粗匹配外点，提升精匹配与位姿估计鲁棒性。
+   重点：否
+4. 标题：**ExpoMotion：面向多曝光融合的大规模基准与Householde**r投影网络
+   实验室·导师：Nankai CV Lab · 杨巨峰教授
+   venue·署位：ECCV 2026 · 七作
+   描述：构建大规模动态MEF基准数据集（1738组序列），覆盖受控/真实/实验室多类运动场景；设计HOP网络，通过GPIA模块完成曝光预对齐，并引入Householder正交注意力将鬼影建模为正交扰动并几何投影滤除，配合梯度引导FFN增强高频细节恢复。
    重点：否
 
 ---
@@ -59,9 +62,9 @@
 
 <!-- 格式：作者列表（你的名字会自动加粗）. "标题." 期刊/会议, 年份. (署位) -->
 
-1. R. Qin, Y. Liu, H. Lin. "Orderly Selective Zoom Extension with Risk-Based Pruning for High-Resolution Image Perception in MLLMs." ECCV, 2026. (共一在投)
-
-2. X. Liu, R. Qin, H. Lin. "Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration." ECCV, 2026. (三作在投)
+1. R. Qin, Y. Liu, H. Lin. "Orderly Selective Zoom Extension with Risk-Based Pruning for High-Resolution Image Perception in MLLMs."
+2. X. Liu, R. Qin, H. Lin. "Cross-Coordinate Correspondence Pruning for Image-to-Point Cloud Registration."
+3. Y. Liu, L. Qu, J. Liang, S. Zhou, H. Zeng, Y. Peng, H. Lin, L. Zhang, J. Yang. "ExpoMotion: A Large-Scale Benchmark and A Householder Projection Network for Multi-Exposure Fusion."
 
 ---
 
