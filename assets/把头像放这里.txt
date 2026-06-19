@@ -1,0 +1,1 @@
+把头像图片放这里，命名为 avatar.png（或 .jpg 改下 html 里的后缀）

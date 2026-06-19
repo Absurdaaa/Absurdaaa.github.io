@@ -41,7 +41,7 @@ a{color:inherit}
 .btn{font-family:"JetBrains Mono",monospace;font-size:13px;padding:9px 18px;border-radius:8px;border:1px solid var(--text);opacity:.9;text-decoration:none;transition:.15s}
 .btn:hover{opacity:1;transform:translateY(-1px)}
 .btn-primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-.hero-photo{width:120px;height:150px;border-radius:12px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:11px;flex-shrink:0}
+.hero-photo{width:120px;height:150px;border-radius:12px;background:var(--surface);border:1px solid var(--border);object-fit:cover;flex-shrink:0;image-rendering:pixelated}
 
 /* ===== About (code style) ===== */
 .about-code{font-size:14px;line-height:1.9;border-left:3px solid var(--accent);padding-left:18px}

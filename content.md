@@ -15,7 +15,7 @@
   计算机科学本科生 · 南开大学羽毛球协会会长 · CV & 深度学习方向 / 喜欢把复杂的问题拆开，再亲手实现出来。
 - GitHub 链接：https://github.com/Absurdaaa
 - 邮箱：2312966@mail.nankai.edu.cn
-- 是否显示照片：否　（改成"是"，并把照片文件放到 assets/，告诉我文件名）
+- 是否显示照片：是　（照片放到 assets/avatar.png；换文件名就在 index.html 改 src）
 
 ---
 
