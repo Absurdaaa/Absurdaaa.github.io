@@ -64,6 +64,9 @@ a{color:inherit}
 .badge-mut{color:var(--muted)}
 .rcard-meta{font-size:12px;color:var(--muted);margin:6px 0}
 .rcard-desc{font-size:13px;color:var(--text);opacity:.85;line-height:1.6}
+.pcard{display:block;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
+.pcard:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.pcard:hover .rcard-top b{color:var(--accent)}
 
 /* ===== Publications ===== */
 .pub{font-size:13px;line-height:1.7;margin-bottom:10px;padding-left:18px;border-left:2px solid var(--border)}
